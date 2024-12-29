@@ -70,6 +70,9 @@ ABCDEFG
 # No cyclic include
 Host no-cyclic.example.com
   HostName 1.2.3.4
+# Handle splitted
+Host spitted.example.com
+HostName 1.2.3.4
 # Absolute PATH
 Host test.absolute.path.example.com
   HostName 1.2.3.4
